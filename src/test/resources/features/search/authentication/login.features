@@ -1,0 +1,11 @@
+Features login
+
+Rule : Customer need to add valid user credentials to access account
+
+example : haris login with valid credentials
+
+Given haris is on login page
+
+when haris login with valid credentials
+
+Then he should be presented with product

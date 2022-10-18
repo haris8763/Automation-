@@ -1,7 +1,10 @@
 Feature: Search by keyword
 
-  Scenario: Searching for a term
-    Given Sergey is researching things on the internet
-    When he looks up "Cucumber"
-    Then he should see information about "Cucumber"
+  Rule: Searching for a term
+
+
+    Example: haris login with valid credentials
+    Given haris is on login page
+    When haris login with valid credentials
+    Then he should be presented with product
 
